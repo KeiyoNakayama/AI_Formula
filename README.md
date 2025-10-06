@@ -1,0 +1,15 @@
+# 🚗 Lane Detection with Sliding Window (OpenCV)
+
+このフォルダでは、**OpenCV** を用いた白線・破線検出およびスライディングウィンドウ法によるレーン延長処理を行います。  
+破線が途切れている場合でも、ポリフィット（二次多項式近似）を用いて**連続的なレーンラインを再構成**します。
+
+---
+
+## 🧠 プロジェクト概要 / Overview
+本プロジェクトでは、自動運転や走行支援システムで用いられる**白線検出アルゴリズム**をシミュレーションします。  
+スライディングウィンドウ法を利用して道路画像からレーン境界を検出し、途切れた破線部分を補間・延長します。
+
+This project demonstrates lane detection using **OpenCV** and the **sliding window method**.  
+Even if the lane markings are dashed or partially missing, a polynomial fitting process reconstructs smooth continuous lane curves.
+
+
